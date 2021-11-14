@@ -226,8 +226,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="footer-inner">
+      <div class="container footer-conteiner">
           <div class="footer-iner-left">
            <a class="logo-footer" href="index.html">
              <span class="web">Web</span>Studio</a>
@@ -245,9 +244,9 @@
            </ul>
            </address>
           </div>
-          <div class="footer-inner-right">
+          <div class="footer-iner-right">
             <div class="footer-social">
-              <h2 class="footer-social-title">присоединяйтесь</h2>
+              <p class="footer-social-title">присоединяйтесь</p>
               <ul class="social-list">
                 <li class="social-item">
                   <a href="#" class="social-link">
@@ -288,7 +287,19 @@
               </ul>
             </div>
           </div>
-        </div>
+          <form class="footer-form">
+            <p class="footer-form-head">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+            <div class="footer-form-box">
+              <label class="footer-form-label">
+                <input class="footer-form-input" type="email" placeholder="E-mail">
+              </label>
+              <button class="footer-form-btn" type="submit">Подписаться
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send-1"></use>
+              </svg>
+            </button>
+            </div>
+          </form>
       </div>
     </footer>
   </body>
