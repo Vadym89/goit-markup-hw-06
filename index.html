@@ -374,7 +374,7 @@
            </ul>
            </address>
           </div>
-          <div class="footer-inner-right">
+          <div class="footer-iner-right">
             <div class="footer-social">
               <p class="footer-social-title">присоединяйтесь</p>
               <ul class="social-list">
@@ -417,6 +417,19 @@
               </ul>
             </div>
           </div>
+          <form class="footer-form">
+            <p class="footer-form-head">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+            <div class="footer-form-box">
+              <label class="footer-form-label">
+                <input class="footer-form-input" type="email" placeholder="E-mail">
+              </label>
+              <button class="footer-form-btn" type="submit">Подписаться
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send-1"></use>
+              </svg>
+            </button>
+            </div>
+          </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -466,15 +479,13 @@
             </svg>
             </span>  
           </label>
-          <label for="" class="modal-form-field">
-            Комментарий
-            <textarea
+          <label for="" class="modal-form-field-message">Комментарий<textarea
             class="modal-form-message"name="user-message"placeholder="Введите текст"></textarea>
           </label>
           <input type="checkbox" id="acept-policy"
           class="modal-form-checkbox visually-hidden">
           <label for="acept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;
-            <span class="checkbox-icon"></span><a href="#">Условия договора</a>
+            <span class="checkbox-icon"></span><a class="checkbox-link" href="#">Условия договора</a>
           </label>
           <button class="modal-form-button" type="submit">Отправить</button>
         </form>
